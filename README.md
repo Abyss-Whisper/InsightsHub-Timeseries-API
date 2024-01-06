@@ -6,7 +6,8 @@ Esse projeto contém APIs e configurações para requisições de GET/PUT da pla
 Baixe o `.zip` ou `git clone` nesse repositório para acessar as aplicações. Verifique o "requirements.txt" para olhar quais *imports* precisarão ser feitos (o principal sendo ele, o `Pandas`, para tratamantos de dados).
 ## Credenciais do ***Bearer Token***🔐
 No Insights, você precisa assegurar de que está usando as credencias de aplicação corretas, para isso, registre um aplicativo ***(tutorial em construção)***. Quando você adquirir essas credênciais, insira elas no arquivo `main.py`.
-Após inserir as credênciais, recomendo que user o comando `print(mindsphere.getBearerToken())`, assim você receberá o token. Não se preocupe em colocar esse token em alguma parte do código, o script lida com isso sozinho. Sempre que uma nova requisição é feitas, um novo Bearer Token é gerado em JSON, e o script usa esse `access_token` para fazer as requisições.
+Após inserir as credênciais, recomendo que user o comando `print(mindsphere.getBearerToken())`, assim você receberá o token. 
+Não se preocupe em colocar esse token em alguma parte do código, o script lida com isso sozinho. Sempre que uma nova requisição é feitas, um novo Bearer Token é gerado em JSON, e o script usa esse `access_token` para fazer as requisições.
 ## Retrieve dos dados📊
 No arquivo `main.py`, edite os campos: 
 - Asset Id
